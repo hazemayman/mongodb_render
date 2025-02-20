@@ -1,6 +1,7 @@
 services:
   - type: pserv
     name: mongodb
+    region: frankfurt
     env: docker
     autoDeploy: false
     disk:
